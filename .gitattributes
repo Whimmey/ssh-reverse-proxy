@@ -1,0 +1,3 @@
+# 统一使用 LF 行尾。shell 脚本若在 Windows 上被检出为 CRLF，
+# 传到 Linux 服务器后会因 \r 而无法执行。
+* text=auto eol=lf
